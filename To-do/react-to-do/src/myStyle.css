@@ -1,0 +1,98 @@
+/*background iamge from google*/
+body{
+    background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .App{
+    background-color: rgba(0, 0, 0, 0.534);
+    min-height:500px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 8px;
+  }
+  /*button and Input css*/
+  #to-do-form input{
+    background-color: rgb(214, 175, 175);
+    border: 0; 
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  #to-do-form input::placeholder{
+    color: rgba(255,255,255,0.5);
+  }
+  #to-do-form input:focus{
+    outline: none;
+  }
+  #to-do-form button{
+    height: 50px;
+    width: 20%;
+    border-radius: 4px;
+    background-color: aqua;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .btn-close {
+      background-color: red;
+  }
+  
+  #to-do-form button:focus{
+    outline: none;
+  }
+  /*List CSS*/
+  /*list of items that will be displayed on the screen*/
+  .list{
+    color: #fff;
+    width: 300px;
+    margin: 20px auto;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+   
+}
+.list p{
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+    text-align: center;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.list p input:focus{
+    outline: none;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.itemsAnim-enter{
+    opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+.itemsAnim-leave{
+    opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}
