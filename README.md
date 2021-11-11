@@ -4,7 +4,7 @@
  
   ## Screenshot 
   
-   ![To Do App]()
+   ![To Do App](https://github.com/Josiah-Sithole/To-Do-List/blob/main/images/todo.PNG)
    
   ## Installation and Usage
   
